@@ -43,11 +43,55 @@
       background-image: url(egg_cover_img-fotor-bg-remover-20250307214756.png);
       height: 30vh; 
       width: 100%;
-      background-size: cover; /* Ensures the background covers the full area */
-      background-position: center bottom; /* Keeps the bottom of the image in view */
-      margin-top: -10vh; /* Reset margin if needed */
+      background-size: cover; 
+      background-position: center bottom; 
+      margin-top: -10vh; 
       display: block;
-      min-height: 60vh; /* Prevents the image from being smaller than this value */
+      min-height: 60vh; 
+    }
+    
+    .note {
+      background-image: url("—Pngtree—simple cute cartoon animal bear_4007728.png"); 
+      height: 70vh; 
+      width: 40vw;
+      margin-top: 10vh;
+      background-size: cover; 
+      background-position: center; 
+      display: flex;
+      flex-direction: column;
+      justify-content: center; 
+      align-items: center; 
+      color: brown; 
+      text-align: center; 
+    }
+
+    .note h2 {
+      margin-top: 5vh;
+      font-size: 2em;
+      margin-bottom: 10px;
+      font-family: "Coiny";
+    }
+
+    .button {
+      background-color: rgba(0, 136, 21, 1);
+      padding: 5px 20px;
+      color: white;
+      border: none;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .button:hover {
+      background-color: darkgreen;
+    }
+
+    .button img {
+      width: 30px;
+      height: 30px;
     }
 
     .main-menu {
@@ -85,6 +129,15 @@
       <div class="title-container">
         <h1 class="title">an egg &nbsp&nbsp&nbsp&nbspsandwich.</h1>
         <div class="egg_img_title"></div>
+      </div>
+
+      <div class="note">
+        <h2>want to <br>make?</h2>
+        <a href="another-page.html">
+          <button class="button">
+            <img src="m2i8N4N4K9K9Z5A0.png" alt="Heart Icon" />
+          </button>
+        </a>
       </div>
     </main>
   </body>
