@@ -40,16 +40,15 @@
     }
 
     .egg_img_title {
-      background-image: url(egg_cover_img-fotor-bg-remover-20250307214756.png
-);
-      height: 50vh;
+      background-image: url(egg_cover_img-fotor-bg-remover-20250307214756.png);
+      height: 30vh; 
       width: 100%;
-      background-size: cover;
-      background-position: center;
-      margin-top: -12vh;
+      background-size: cover; /* Ensures the background covers the full area */
+      background-position: center bottom; /* Keeps the bottom of the image in view */
+      margin-top: -10vh; /* Reset margin if needed */
       display: block;
+      min-height: 60vh; /* Prevents the image from being smaller than this value */
     }
-
 
     .main-menu {
       border: 1px solid black;
@@ -86,8 +85,6 @@
       <div class="title-container">
         <h1 class="title">an egg &nbsp&nbsp&nbsp&nbspsandwich.</h1>
         <div class="egg_img_title"></div>
-      </div>
-
       </div>
     </main>
   </body>
